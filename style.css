@@ -1,0 +1,39 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.padding-out{
+  padding:0 30px;
+}
+.fat{
+  font-weight: 500;
+}
+.head{
+  text-align: center;
+}
+.mycontainer {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 92%;
+}
+.card{
+  transition: .5s;
+  background: #eee;
+}
+.card:hover i{
+  color: #c4f028;
+}
+.card:hover{
+  transform: scale(1.04);
+  background:#fff;
+}
+.h-mine{
+  padding-top:10px ;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
